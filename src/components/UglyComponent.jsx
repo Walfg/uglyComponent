@@ -149,6 +149,7 @@ export default function UglyComponent() {
                         sx={{
                           display: "flex",
                           alignItems: "center",
+                          textAlign: "start",
                           gap: 2,
                           color: "#fff",
                         }}
@@ -230,7 +231,7 @@ export default function UglyComponent() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title={t("contact.mapTitle", "Ubicación en Google Maps")}
-              ></iframe>
+              />
             </motion.div>
           </Grid>
         </Grid>
